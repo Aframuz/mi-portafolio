@@ -4,3 +4,19 @@
 body {
    background-color: mediumpurple;
 }
+
+/*=============================================
+=                     NAV                     =
+=============================================*/
+.navbar {
+   background-color: #660066;
+   /* color: #fff; */
+}
+
+.navbar-brand {
+   font-family: "Oswald", sans-serif;
+}
+
+.navbar-nav {
+   font-family: "Helvetica Neue", sans-serif;
+}
