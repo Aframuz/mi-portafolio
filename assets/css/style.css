@@ -38,6 +38,28 @@ h1 {
 h1 span {
    border-color: #000;
 }
+
+/*=============================================
+=                 DESCRIPTION                 =
+=============================================*/
+#about {
+   font-family: "Open Sans", sans-serif;
+   color: #373a3c;
+}
+
+hr:not([size]) {
+   height: 2px;
+   max-width: 115.5px;
+}
+
+.upper-text {
+   letter-spacing: 0.5px;
+   line-height: 50px;
+}
+.lower-text {
+   letter-spacing: 0.16px;
+   line-height: 40px;
+}
 /*=============================================
 =                MEDIA QUERIES                =
 =============================================*/
