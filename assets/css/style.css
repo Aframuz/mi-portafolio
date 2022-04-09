@@ -60,11 +60,39 @@ hr:not([size]) {
    letter-spacing: 0.16px;
    line-height: 40px;
 }
+
+/*=============================================
+=                 EXPERIENCE                  =
+=============================================*/
+#experience {
+   color: #373a3c;
+}
+h2 {
+   font-family: "Oswald", sans-serif;
+   font-size: 3.25rem;
+}
+
+i {
+   font-size: 150px;
+   color: #660066;
+}
+#experience span {
+   font-family: "Open Sans", sans-serif;
+}
+/*=============================================
+=                   WORKS                     =
+=============================================*/
+#works {
+   background-color: #660066;
+}
 /*=============================================
 =                MEDIA QUERIES                =
 =============================================*/
 @media only screen and (max-width: 400px) {
    h1 {
       font-size: 2.5rem;
+   }
+   h2 {
+      font-size: 2.2rem;
    }
 }
