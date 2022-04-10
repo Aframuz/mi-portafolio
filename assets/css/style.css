@@ -89,8 +89,7 @@ i {
 #works {
    background-color: #660066;
 }
-#works .work-cards {
-}
+
 #works .card-title {
    font-family: "Oswald";
 }
@@ -112,6 +111,23 @@ i {
    color: #b6babc;
    background-color: #373a3c;
 }
+
+/*=============================================
+=                   FOOTER                    =
+=============================================*/
+footer {
+   height: 221px;
+   background-color: #660066;
+}
+
+footer span {
+   font-family: "Oswald", sans-serif;
+   font-size: 2.5rem;
+}
+footer i {
+   margin: 0 12px;
+   font-size: 3.125rem;
+}
 /*=============================================
 =                MEDIA QUERIES                =
 =============================================*/
@@ -121,5 +137,12 @@ i {
    }
    h2 {
       font-size: 2.2rem;
+   }
+   footer span {
+      font-size: 1.875rem;
+   }
+   footer i {
+      margin: 0 10px;
+      font-size: 2.5rem;
    }
 }
