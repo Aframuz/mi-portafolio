@@ -74,6 +74,7 @@ h2 {
 #experience .row {
    max-width: 80%;
 }
+
 #experience h3 {
    font-family: "Oswald", sans-serif;
    font-weight: 600;
@@ -91,11 +92,28 @@ i {
 #works {
    background-color: #660066;
 }
+#works .work-cards {
+}
 #works .card-title {
    font-family: "Oswald";
 }
 #works .card-text {
    font-family: "Open Sans";
+   max-height: 3rem;
+   overflow: hidden;
+}
+
+/*=============================================
+=                  CONTACT                    =
+=============================================*/
+#contact .container {
+   font-family: "Open Sans";
+   font-size: 1.5rem;
+   color: #373a3c;
+}
+#contact .btn {
+   color: #b6babc;
+   background-color: #373a3c;
 }
 /*=============================================
 =                MEDIA QUERIES                =
