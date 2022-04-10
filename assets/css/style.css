@@ -72,6 +72,11 @@ h2 {
    font-size: 3.25rem;
 }
 
+#experience h3 {
+   font-family: "Oswald", sans-serif;
+   font-weight: 600;
+}
+
 i {
    font-size: 150px;
    color: #660066;
@@ -84,6 +89,12 @@ i {
 =============================================*/
 #works {
    background-color: #660066;
+}
+#works .card-title {
+   font-family: "Oswald";
+}
+#works .card-text {
+   font-family: "Open Sans";
 }
 /*=============================================
 =                MEDIA QUERIES                =
