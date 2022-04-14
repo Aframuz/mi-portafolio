@@ -4,16 +4,37 @@
 html {
    scroll-behavior: auto !important;
 }
+
+.navbar,
+#works,
+footer {
+   background-color: #660066;
+}
+
+.navbar-brand,
+h1,
+#experience h3,
+#works .card-title,
+footer span {
+   font-family: "Oswald", sans-serif;
+}
+
+#about,
+#experience span,
+#works .card-text,
+#contact .container {
+   font-family: "Open Sans", sans-serif;
+}
+
+#about,
+#experience,
+#contact .container {
+   color: #373a3c;
+}
+
 /*=============================================
 =                     NAV                     =
 =============================================*/
-.navbar {
-   background-color: #660066;
-   /* color: #fff; */
-}
-.navbar-brand {
-   font-family: "Oswald", sans-serif;
-}
 .navbar-nav {
    font-family: "Helvetica Neue", sans-serif;
 }
@@ -33,22 +54,12 @@ html {
 }
 
 h1 {
-   font-family: "Oswald", sans-serif;
    font-size: 4.5rem;
-}
-
-h1 span {
-   border-color: #000;
 }
 
 /*=============================================
 =                 DESCRIPTION                 =
 =============================================*/
-#about {
-   font-family: "Open Sans", sans-serif;
-   color: #373a3c;
-}
-
 hr:not([size]) {
    height: 2px;
    max-width: 115.5px;
@@ -66,11 +77,7 @@ hr:not([size]) {
 /*=============================================
 =                 EXPERIENCE                  =
 =============================================*/
-#experience {
-   color: #373a3c;
-}
 h2 {
-   font-family: "Oswald", sans-serif;
    font-size: 3.25rem;
 }
 #experience .row {
@@ -78,28 +85,17 @@ h2 {
 }
 
 #experience h3 {
-   font-family: "Oswald", sans-serif;
    font-weight: 600;
 }
 
 i {
    color: #660066;
 }
-#experience span {
-   font-family: "Open Sans", sans-serif;
-}
+
 /*=============================================
 =                   WORKS                     =
 =============================================*/
-#works {
-   background-color: #660066;
-}
-
-#works .card-title {
-   font-family: "Oswald";
-}
 #works .card-text {
-   font-family: "Open Sans";
    max-height: 3rem;
    overflow: hidden;
 }
@@ -108,9 +104,7 @@ i {
 =                  CONTACT                    =
 =============================================*/
 #contact .container {
-   font-family: "Open Sans";
    font-size: 1.5rem;
-   color: #373a3c;
 }
 #contact .btn {
    color: #b6babc;
@@ -122,11 +116,9 @@ i {
 =============================================*/
 footer {
    height: 221px;
-   background-color: #660066;
 }
 
 footer span {
-   font-family: "Oswald", sans-serif;
    font-size: 2.5rem;
 }
 footer i {
